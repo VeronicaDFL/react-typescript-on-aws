@@ -27,7 +27,7 @@ export const Form = () => {
             onChange={e => setFormData({...formData,age:Number(e.target.value)})}/>
 
             <button type="submit" 
-            onClick = {(e) => handleFormSubmit(e)}></button>
+            onClick = {(e) => handleFormSubmit(e)}>Send Form</button>
             </form>
         </>
     )
